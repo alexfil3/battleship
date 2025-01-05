@@ -1,0 +1,1 @@
+{"version":3,"file":"main.js","mappings":"AAAU,CAAC,EAAG,EAAG,GAAGA,KAAIC,GAAKA,EAAI","sources":["webpack://battleship/./src/index.js"],"sourcesContent":["const a = [1, 2, 3].map(i => i + 1);"],"names":["map","i"],"sourceRoot":""}
