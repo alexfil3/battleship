@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'pirata';
+    src: url('./fonts/pirataone-regular-webfont.woff2') format('woff2'),
+         url('./fonts/pirataone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: "pirata", serif;
+    font-weight: 400;
+    font-style: normal;
+}

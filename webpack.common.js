@@ -23,6 +23,10 @@ module.exports = {
                 use: ['style-loader', 'css-loader'],
             },
             {
+                test: /\.(woff|woff2|eot|ttf|otf)$/i,
+                type: 'asset/resource',
+            },
+            {
                 test: /\.html$/i,
                 loader: 'html-loader',
             },
