@@ -22,10 +22,18 @@ module.exports = {
                 loader: "html-loader",
             },
             {
-                test: /\.jsx?$/,
-                exclude: ['node_modules'],
-                use: ['babel-loader'],
-            },
+                test: /\.(?:js|mjs|cjs)$/,
+                exclude: /node_modules/,
+                use: {
+                    loader: 'babel-loader',
+                    options: {
+                        targets: "defaults",
+                        presets: [
+                            ['@babel/preset-env']
+                        ]
+                    }
+                }
+            }
         ]
     },
 }
